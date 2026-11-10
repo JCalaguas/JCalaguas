@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Justine Luis Calaguas. Computer vision, machine learning and agentic coding.">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#EAF4F8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0F4C5C" stop-opacity="1"/>
+      <stop offset="0.55" stop-color="#0F4C5C" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0F4C5C" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="300" rx="16" fill="#0F4C5C"/>
+  <rect width="1280" height="300" rx="16" fill="url(#grid)"/>
+  <rect width="1280" height="300" rx="16" fill="url(#fade)"/>
+
+  <!-- eye-tracking motif, a nod to the drowsiness project -->
+  <g transform="translate(1065 150)" fill="none" stroke="#EAF4F8" stroke-opacity="0.35" stroke-width="2">
+    <path d="M-120 0 Q0 -78 120 0 Q0 78 -120 0 Z"/>
+    <circle r="34"/>
+    <circle r="10" fill="#C6F432" stroke="none"/>
+    <path d="M-150 -95 h28 M-150 -95 v28 M150 -95 h-28 M150 -95 v28 M-150 95 h28 M-150 95 v-28 M150 95 h-28 M150 95 v-28" stroke="#C6F432" stroke-opacity="0.9"/>
+  </g>
+
+  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+    <text x="72" y="112" fill="#C6F432" font-size="20" font-weight="600" letter-spacing="3">HI, I'M</text>
+    <text x="70" y="172" fill="#EAF4F8" font-size="56" font-weight="700">Justine Luis Calaguas</text>
+    <rect x="72" y="192" width="88" height="5" rx="2.5" fill="#C6F432"/>
+    <text x="72" y="240" fill="#EAF4F8" fill-opacity="0.85" font-size="24">Computer vision · Machine learning · Agentic coding</text>
+  </g>
+</svg>
